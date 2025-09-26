@@ -50,7 +50,8 @@ Once your app is running, you can:
 - Internally, the system will route the query to the appropriate sub-agent or tool
 - The sub-agent can perform reasoning, fetch / retrieve information, call APIs, or generate a response
 - The response is returned to the user
-- You can extend the system by:
+
+You can extend the system by:
 - Adding new tools (e.g. weather API, calculator, web search)
 - Adding new agent logic or branching strategies
 - Integrating new memory or retrieval systems (vector DB, embedding models)
