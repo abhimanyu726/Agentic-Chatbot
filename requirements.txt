@@ -7,3 +7,4 @@ streamlit
 tavily-python
 langchain_groq
 langchain_openai
+tavily-python
