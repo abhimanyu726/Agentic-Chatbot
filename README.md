@@ -40,4 +40,17 @@ This repository contains the core code, configuration, and dependencies for runn
     pip install -r requirements.txt
 
 # 4. Run the application
-python app.py
+streamlit run app.py
+
+# 🔧 Usage
+
+Once your app is running, you can:
+
+- Send user queries / messages
+- Internally, the system will route the query to the appropriate sub-agent or tool
+- The sub-agent can perform reasoning, fetch / retrieve information, call APIs, or generate a response
+- The response is returned to the user
+- You can extend the system by:
+- Adding new tools (e.g. weather API, calculator, web search)
+- Adding new agent logic or branching strategies
+- Integrating new memory or retrieval systems (vector DB, embedding models)
