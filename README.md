@@ -24,23 +24,24 @@ This repository contains the core code, configuration, and dependencies for runn
 
 ### Installation Steps
 
-# 1. Clone the repo
+## 1. Clone the repo
     git clone https://github.com/abhimanyu726/Agentic-Chatbot.git
     cd Agentic-Chatbot
 
-# 2. Create & activate a virtual environment
+## 2. Create & activate a virtual environment
     python -m venv venv
 ### On Linux / macOS:
     source venv/bin/activate
 ### On Windows:
     venv\Scripts\activate
 
-# 3. Install dependencies
+## 3. Install dependencies
     pip install --upgrade pip
     pip install -r requirements.txt
 
-# 4. Run the application
-streamlit run app.py
+## 4. Run the application
+    streamlit run app.py
+
 
 # 🔧 Usage
 
